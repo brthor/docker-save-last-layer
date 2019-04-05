@@ -5,18 +5,18 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="d-save-last",
-    version="0.1.0",
+    version="0.1.2",
     author="Bryan Thornbury",
     author_email="author@example.com",
     description="A command line utility effectively replicating `docker save` except that it " +
             "will only save the LAST layer of the image in the output archive.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/brthor/docker-save-last",
+    url="https://github.com/brthor/docker-save-last-layer",
     packages=setuptools.find_packages(),
+    license='MIT',
     classifiers=[
         "Programming Language :: Python :: 2.7",
-        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
         "Intended Audience :: Developers",
         "Intended Audience :: System Administrators",

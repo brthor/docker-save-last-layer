@@ -94,6 +94,8 @@ def main():
         cleanup(containerName)
         sys.exit(1)
 
+    cleanup(containerName)
+
 
 if __name__ == "__main__":
     main()
